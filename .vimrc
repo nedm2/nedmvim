@@ -8,7 +8,8 @@ set tabstop=4
 
 "syntax
 syntax enable
-au BufRead,BufNewFile *.fs set filetype=fs  "f sharp syntax
+au BufRead,BufNewFile *.fs set filetype=fs       "f sharp syntax
+au BufNewFile,BufRead *.cpy set filetype=python "python c-generators
 
 "Use vim improvements
 set nocompatible
@@ -41,3 +42,21 @@ set nowrap
 
 "jk esc
 imap jk <Esc>
+
+"Smoother scrolling
+:nmap <C-d> 
+:nmap <C-u> 
+
+" I haven't found how to hide this function (yet)
+function! RestoreRegister()
+  let @" = s:restore_reg
+  return ''
+endfunction
+
+function! s:Repl()
+    let s:restore_reg = @"
+    return "p@=RestoreRegister()\<cr>"
+endfunction
+
+" NB: this supports "rp that replaces the selection by the contents of @r
+vnoremap <silent> <expr> p <sid>Repl()
