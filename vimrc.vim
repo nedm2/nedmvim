@@ -42,6 +42,7 @@ set nowrap
 
 "jk esc
 imap jk <Esc>
+imap jK <Esc>
 
 "Smoother scrolling
 :nmap <C-d> 
