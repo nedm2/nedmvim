@@ -40,9 +40,9 @@ set wrapmargin=0
 "turn off line wrap
 set nowrap
 
-"jk esc
+"jk esc and friends
 imap jk <Esc>
-imap jK <Esc>
+nnoremap ; :
 
 "Smoother scrolling
 :nmap <C-d> 
