@@ -1,1 +1,5 @@
 Make statuses display nicely on narrow windows
+
+Scrollbind to display in multiple columns
+
+Highlight alternate lines in a file
