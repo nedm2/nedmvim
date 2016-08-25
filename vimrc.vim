@@ -70,6 +70,6 @@ set showmode
 " easy open new tab
 noremap <C-N> :tabnew 
 
-" get rid of a few keystrokes in command line mode
-cnoremap ; !
-cnoremap : <C-F>
+" get rid of a few keystrokes for common command line tasks
+nnoremap ;; :!
+nnoremap ;' :<C-F>
