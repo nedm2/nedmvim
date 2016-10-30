@@ -77,6 +77,9 @@ nnoremap ;' :<C-F>
 " Search and replace under cursor
 :nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 
+" CtrlP options
+let g:ctrlp_cmd = 'CtrlPBuffer'
+
 " Window navigation
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-j> :wincmd j<CR>
