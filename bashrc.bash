@@ -1,5 +1,4 @@
 export EDITOR=vim
-alias vim="vim -p"
 
 function csvview { column -s, -tn < "$1"; }
 export -f csvview
