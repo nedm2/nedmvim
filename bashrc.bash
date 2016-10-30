@@ -27,4 +27,7 @@ function timer_stop {
 trap 'timer_start' DEBUG
 PROMPT_COMMAND=timer_stop
 
+# Shorthand for trash
+alias t=trash
+
 export PS1='${timer_show}<\t>\h:\w$ '
