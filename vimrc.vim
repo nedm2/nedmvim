@@ -77,3 +77,8 @@ nnoremap ;' :<C-F>
 " Search and replace under cursor
 :nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 
+" Window navigation
+nmap <silent> <C-k> :wincmd k<CR>
+nmap <silent> <C-j> :wincmd j<CR>
+nmap <silent> <C-h> :wincmd h<CR>
+nmap <silent> <C-l> :wincmd l<CR>
