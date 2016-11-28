@@ -22,7 +22,7 @@ set wildmenu
 set backspace=2
 
 "custom status bar
-":set laststatus=2
+:set laststatus=2
 ":set statusline=%F%m%r%h%w\ %{&ff}\ %Y\ [0x\%02.2B]\ %=%l/%L,%v\ %p%%
 set ruler
 set rulerformat=%100(%t%m%r%h%w\ %Y\ %=0x\%02.2B\ %l/%L,%v\ %p%%%)
