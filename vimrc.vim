@@ -100,7 +100,7 @@ set pastetoggle=<F2>
 set showmode
 
 " easy open new tab
-noremap <C-N> :tabnew 
+map <silent> <C-n> :NERDTreeFocus<CR>
 
 " get rid of a few keystrokes for common command line tasks
 nnoremap ;; :!
@@ -113,7 +113,7 @@ nnoremap ;' :<C-F>
 let g:ctrlp_cmd = 'CtrlPBuffer'
 
 " Window navigation
-nmap <silent> <C-j> <C-W>w
+nmap <silent> <C-a> <C-W>w
 
 nmap <silent> <Tab> :bn<CR>
 nmap <silent> <S-Tab> :bp<CR>
