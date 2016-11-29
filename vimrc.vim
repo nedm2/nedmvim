@@ -117,3 +117,7 @@ nmap <silent> <C-l> :wincmd l<CR>
 
 nmap <silent> <Tab> :bn<CR>
 nmap <silent> <S-Tab> :bp<CR>
+
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
