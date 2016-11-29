@@ -20,6 +20,7 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'moll/vim-bbye'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
