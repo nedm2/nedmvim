@@ -75,8 +75,7 @@ imap jk <Esc>
 nnoremap ; :
 
 "Smoother scrolling
-:nmap <C-d> 
-:nmap <C-u> 
+set scroll=10
 
 " I haven't found how to hide this function (yet)
 function! RestoreRegister()
