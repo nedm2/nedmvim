@@ -119,3 +119,6 @@ nmap <silent> <S-Tab> :bp<CR>
 if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
+
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
