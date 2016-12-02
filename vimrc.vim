@@ -18,6 +18,7 @@ Plugin 'vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -108,9 +109,6 @@ nnoremap ;' :<C-F>
 
 " Search and replace under cursor
 :nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
-
-" CtrlP options
-let g:ctrlp_cmd = 'CtrlPBuffer'
 
 " Window navigation
 nmap <silent> <C-a> <C-W>w
