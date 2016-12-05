@@ -19,6 +19,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'moll/vim-bbye'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -126,3 +127,5 @@ autocmd QuickFixCmdPost    l* nested lwindow
 highlight Search ctermfg=black
 
 set hidden
+
+command Q Bdelete
