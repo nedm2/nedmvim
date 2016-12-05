@@ -121,6 +121,7 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
+" Open quick fix window automatically
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
