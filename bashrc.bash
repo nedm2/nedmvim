@@ -30,3 +30,7 @@ PROMPT_COMMAND=timer_stop
 alias t=trash
 
 export PS1='${timer_show}<\t>\h:\w$ '
+
+if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+fi
