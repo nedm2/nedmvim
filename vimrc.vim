@@ -130,3 +130,6 @@ highlight Search ctermfg=black
 set hidden
 
 command Q Bdelete
+
+" Make fold bg a different colour from cursor
+hi Folded ctermbg=117
