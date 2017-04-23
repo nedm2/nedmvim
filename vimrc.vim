@@ -135,3 +135,5 @@ command Q Bdelete
 
 " Make fold bg a different colour from cursor
 hi Folded ctermbg=117
+
+set shiftwidth=4
