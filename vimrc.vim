@@ -137,3 +137,15 @@ command Q Bdelete
 hi Folded ctermbg=117
 
 set shiftwidth=4
+
+function! OverLenOn()
+    highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+    match OverLength /\%81v.\+/
+endfunction
+
+function! OverLenOff()
+    highlight clear OverLength
+endfunction
+
+command Overlen call OverLenOn()
+command Nooverlen call OverLenOff()
