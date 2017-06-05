@@ -109,6 +109,7 @@ map <silent> <C-n> :NERDTreeFocus<CR>
 " get rid of a few keystrokes for common command line tasks
 nnoremap ;; :!
 nnoremap ;' :<C-F>
+nnoremap /' /<C-F>
 
 " Search and replace under cursor
 :nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
