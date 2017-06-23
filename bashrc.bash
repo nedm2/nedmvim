@@ -29,7 +29,7 @@ PROMPT_COMMAND=timer_stop
 # Shorthand for trash
 alias t=trash
 
-export PS1='\[\e[1;32m\]${timer_show}<\t>\h:\w$\[\e[0m\] '
+export PS1='\[\e[1;91m\]${timer_show}\[\e[1;32m\]<\t>\h:\w$\[\e[0m\] '
 
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
